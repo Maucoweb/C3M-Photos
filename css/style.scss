@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+body{
+    width: 100%;
+    margin: 0;
+}
+
+.logo {
+    width: 10%;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 2px 2px whitesmoke;
+}
+
+.bloc_header {
+    background: linear-gradient(to bottom right, black, white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    box-shadow: 0px 3px 3px 1px grey;
+    height: 200px;
+
+    .degrade_raw{
+        width: 80px;
+        height: 150px;
+    }
+
+    .title_h1 {
+        font-family: "Dancing script", cursive;
+        font-size: 5rem;
+        text-shadow: 1px 1px 2px white;
+    }
+
+    .menu_accueil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+        font-family:'Dancing script', cursive ;
+        font-size: 1.8rem;
+
+        
+        .menu {
+            margin-top: 10px;
+        }
+
+        .icone--menu {
+            margin-right: 10px;
+        }
+
+        .menu_link {
+            color:black;
+             text-decoration: none;
+        }
+    }
+}

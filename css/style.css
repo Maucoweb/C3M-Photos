@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.logo {
+  width: 10%;
+  border-radius: 10px;
+  border: 3px solid black;
+  -webkit-box-shadow: 3px 2px 2px whitesmoke;
+          box-shadow: 3px 2px 2px whitesmoke;
+}
+
+.bloc_header {
+  background: -webkit-gradient(linear, left top, right bottom, from(black), to(white));
+  background: linear-gradient(to bottom right, black, white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  -webkit-box-shadow: 0px 3px 3px 1px grey;
+          box-shadow: 0px 3px 3px 1px grey;
+  height: 200px;
+}
+
+.bloc_header .degrade_raw {
+  width: 80px;
+  height: 150px;
+}
+
+.bloc_header .title_h1 {
+  font-family: "Dancing script", cursive;
+  font-size: 5rem;
+  text-shadow: 1px 1px 2px white;
+}
+
+.bloc_header .menu_accueil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  font-family: 'Dancing script', cursive;
+  font-size: 1.8rem;
+}
+
+.bloc_header .menu_accueil .menu {
+  margin-top: 10px;
+}
+
+.bloc_header .menu_accueil .icone--menu {
+  margin-right: 10px;
+}
+
+.bloc_header .menu_accueil .menu_link {
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
